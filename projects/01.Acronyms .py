@@ -1,8 +1,9 @@
 name = input("Enter the name to print the Acronym ")
 text = name.split()
-a = ' '
 
-for i in text:
-     a = a + i[0].upper()
+acronym = ' '
 
-print(a)
+for item in text:
+     acronym = acronym + item[0].upper()
+
+print(acronym)
